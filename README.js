@@ -97,6 +97,8 @@ const short = pencils.filter((Matita) => {
 console.log(short);
 
 
+//ESERCIZIO 7
+
 const students = [
   {
    id: 1,
@@ -119,6 +121,11 @@ const students = [
 ];
 
 // Recupera i dati dello studente con id 2
+const student_id = students.find((studentId) => {
+  return studentId.id == 2;
+})
+console.log(student_id);
+
 
 
 const students_2 = [
