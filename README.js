@@ -16,7 +16,12 @@ const people = [
 ];
 
 // Stampa in console tutti i nomi
+//utilizzo forEach per l'array di oggetti
 
+people.forEach((nome) => {
+  console.log(nome.name);
+  
+})
 
 const numbers = [2, 8, 4, 7, 2, 87];
 
