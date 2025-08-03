@@ -127,7 +127,7 @@ const student_id = students.find((studentId) => {
 console.log(student_id);
 
 
-
+//ESERCIZIO 8
 const students_2 = [
   {
 	  id: 1,
@@ -150,3 +150,12 @@ const students_2 = [
 ];
 
 // Recuperare la classe dello studente Marco Lanci
+
+const classe = students_2.find((studentClass) => {
+  if (studentClass.name ==  'Marco Lanci') {
+    return studentClass.classroom
+  }
+})
+console.log(classe.classroom);
+//Secondo me qui non dovrei mettere classe.classroom ma solo classe e avere in console solo la classe, ma se 
+//non la metto ottengo tutto l'oggetto 
