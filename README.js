@@ -51,9 +51,19 @@ const nomi_autori = posts.map((author) => {
 console.log(nomi_autori);
 
 
+
+//ESERCIZIO 5
 const nums = [2, 8, 4, 7, 12, 87];
 
 // Crea un array a partire dall'array nums, che abbia solo i numeri pari
+//devo estrapolare solo alcuni elementi, quindi utilizzo filter
+
+const pari = nums.filter((numer) => {
+  if (numer % 2 == 0) {
+    return true;
+  } return false;
+})
+console.log(pari);
 
 
 const pencils = [
