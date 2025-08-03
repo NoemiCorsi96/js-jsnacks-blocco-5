@@ -66,6 +66,7 @@ const pari = nums.filter((numer) => {
 console.log(pari);
 
 
+//ESERCIZIO 6
 const pencils = [
   { brand: 'Faber-Castell', weight: 8, sizeInCm: 12 },
   { brand: 'Staedtler', weight: 9, sizeInCm: 18 },
@@ -81,6 +82,19 @@ const pencils = [
 
 // A partire dall'array fornito, crea due array. Uno con le matite lunghe almeno 15cm. L'altro con le restanti.
 
+const long = pencils.filter((matita) => {
+  if (matita.sizeInCm >= 15) {
+    return true;
+  } return false
+})
+console.log(long);
+
+const short = pencils.filter((Matita) => {
+  if (Matita.sizeInCm < 15) {
+    return true;
+  } return false
+})
+console.log(short);
 
 
 const students = [
