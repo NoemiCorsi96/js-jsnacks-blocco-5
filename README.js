@@ -43,7 +43,12 @@ const posts = [
 ]
 
 // Crea un nuovo array coi nomi di tutti gli autori
+//utilizzo map
 
+const nomi_autori = posts.map((author) => {
+  return author.author
+})
+console.log(nomi_autori);
 
 
 const nums = [2, 8, 4, 7, 12, 87];
