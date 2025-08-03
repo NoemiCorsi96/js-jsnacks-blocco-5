@@ -1,3 +1,4 @@
+//ESERCIZIO 1 
 const names = ['Edoardo', 'Simone', 'Francesco'];
 
 // Stampa in console tutti i nomi
@@ -8,7 +9,7 @@ names.forEach((name) => {
   
 })
 
-
+//ESERCIZIO 2 
 const people = [
   { name: 'Paolo', age: 35 },
   { name: 'Giulia', age: 24 },
@@ -22,12 +23,18 @@ people.forEach((nome) => {
   console.log(nome.name);
   
 })
-
+//ESERCIZIO 3
 const numbers = [2, 8, 4, 7, 2, 87];
 
 // Crea un nuovo array in cui tutti i numeri siano incrementati di 1
+//Devo restituire un nuovo array quindi utilizzo map
 
+const incremento= numbers.map((numero) => {
+  return numero + 1;
+})
+console.log(incremento);
 
+//ESERCIZIO 4
 const posts = [
   { author: 'Marco', date: '12/3/2021', content: 'lorem ipsum...' },
   { author: 'Luca', date: '30/6/2021', content: 'lorem ipsum...' },
