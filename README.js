@@ -1,6 +1,12 @@
 const names = ['Edoardo', 'Simone', 'Francesco'];
 
 // Stampa in console tutti i nomi
+//Lo possiamo fare con forEach
+
+names.forEach((name) => {
+  console.log(name);
+  
+})
 
 
 const people = [
@@ -88,7 +94,7 @@ const students_2 = [
     classroom: '4A'
   },
   {
-	  id: 3
+	  id: 3,
     name: 'Luigi Banzi',
     age: 33,
     classroom: '5B'
